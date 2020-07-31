@@ -1,6 +1,17 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Jul 30 21:37:06 2020
+
+@author: hezexia
+"""
+#清理屏幕
+import os
+os.system('clear')
+# mport numpy as np
+import pandas as pd
 import requests 
 from bs4 import BeautifulSoup
-import pandas as pd
 
 # 得到页面的内容
 request_url = 'http://car.bitauto.com/xuanchegongju/?l=8&mid=8'
